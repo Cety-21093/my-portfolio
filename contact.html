@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Charles E. T. Yeanzah</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <span class="logo-icon"><i class="fas fa-code"></i></span>
+                Charles.dev
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="contact.html" class="active">Contact</a>
+            </div>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="contact-hero-content">
+                <h1>Let's Connect</h1>
+                <p class="lead">Have a question or want to work together? I'd love to hear from you.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Contact Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <div class="info-box">
+                        <h2>Contact Information</h2>
+                        <p>Feel free to reach out through any of these channels</p>
+                        
+                        <div class="contact-details">
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h3>Email</h3>
+                                    <p>yeanzahcharles21@gmail.com</p>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h3>Phone</h3>
+                                    <p>+231 777 191 936</p>
+                                </div>
+                            </div>
+
+                            <div class="detail-item">
+                                <div class="detail-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <h3>Location</h3>
+                                    <p>Monrovia, Liberia</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-connect">
+                            <h3>Connect With Me</h3>
+                            <div class="social-icons">
+                                <a target="_blank" href="https://github.com/Cety-21093" class="social-icon" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Availability Card -->
+                    <div class="availability-card">
+                        <div class="availability-status">
+                            <span class="status-dot"></span>
+                            <span class="status-text">Available for opportunities</span>
+                        </div>
+                        <p>Currently open to IT administration and system management roles</p>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-header">
+                            <h2>Send Me a Message</h2>
+                            <p>I'll get back to you as soon as possible</p>
+                        </div>
+
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-user"></i>
+                                    <input type="text" id="name" name="name" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <input type="email" id="email" name="email" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-phone"></i>
+                                    <input type="tel" id="phone" name="phone">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject <span class="required">*</span></label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-pen"></i>
+                                    <input type="text" id="subject" name="subject" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group full-width">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <div class="input-with-icon">
+                                    <i class="fas fa-message"></i>
+                                    <textarea id="message" name="message" rows="6" required></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What services do you offer?</h3>
+                    <p>I specialize in system administration, network security, and IT infrastructure management.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What is your response time?</h3>
+                    <p>I typically respond to all inquiries within 24-48 hours during business days.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Are you available for remote work?</h3>
+                    <p>Yes, I'm available for both remote and on-site opportunities in IT administration.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Confirmation Modal -->
+    <div id="confirmModal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('confirmModal')">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="confirm-content">
+                <h2>Confirm Submission</h2>
+                <p>Are you sure you want to submit this form?</p>
+                <div class="modal-buttons">
+                    <button class="btn btn-primary" onclick="submitForm()">
+                        <i class="fas fa-check"></i>
+                        Confirm
+                    </button>
+                    <button class="btn btn-secondary" onclick="closeModal('confirmModal')">
+                        <i class="fas fa-times"></i>
+                        Cancel
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal('successModal')">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="success-content">
+                <div class="success-icon">
+                    <i class="fas fa-check-circle"></i>
+                </div>
+                <h2>Message Sent!</h2>
+                <p>Thank you for reaching out. I'll get back to you soon.</p>
+                <button class="btn btn-primary" onclick="closeModal('successModal')">
+                    <i class="fas fa-check"></i>
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-branding">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>Charles.dev</span>
+                    </div>
+                    <p>Building secure and efficient IT infrastructures</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a target="_blank" href="https://github.com/Cety-21093" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Charles E. T. Yeanzah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
