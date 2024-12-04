@@ -18,7 +18,7 @@ Welcome to my personal portfolio website! This site showcases my skills, project
 ## Live Demo
 
 You can view the live version of my portfolio here:  
-[**Live Portfolio**](https://charlesetyeanzah.vercel.app)
+[**Live Portfolio**](https://charlesetyeanzah.vercel.app](https://my-portfolio-iota-kohl-97.vercel.app/)
 
 ## Installation
 
