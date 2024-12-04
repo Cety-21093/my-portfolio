@@ -42,7 +42,9 @@ To view the project locally, follow these steps:
 
 ## License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is strictly personal and is not open for public use, modification, or redistribution. It is copyrighted and can only be used by Charles E.T. Yeanzah.
+
+Unauthorized use, distribution, or reproduction of any part of this portfolio is prohibited.
 
 ## Contact
 
