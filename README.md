@@ -48,6 +48,6 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 Feel free to reach out to me via the following channels:
 
-- **Email**: [yeanzahcharles21@gmail.com]
+- **Email**: yeanzahcharles21@gmail.com
 - **LinkedIn**: [https://www.linkedin.com/in/charlesetyeanzah](https://www.linkedin.com/in/charlesetyeanzah)
-- **GitHub**: [https://github.com/charlesyeanzah](https://github.com/cety-21093)
+- **GitHub**: [https://github.com/charlesyeanzah](https://github.com/Cety-21093/)
